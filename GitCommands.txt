@@ -1,0 +1,16 @@
+Command Prompt 
+1)git config --global user.name "karthiky7cs1212"  (karthiky7cs12...is the github username)
+
+2)git config --global user.email karthiky7cs1212@gmail.com  (karthiky7cs12...is the github email)
+
+3)git clone https://github.com/karthiky7cs1212/CTCI.git
+
+4)git add TEST.txt
+
+Updates:
+
+5)git status   (It will show modified if file is modified)
+
+6)git commit -m "First Commit" TEST.txt
+
+7)git push -u origin master
