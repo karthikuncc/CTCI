@@ -14,3 +14,5 @@ Updates:
 6)git commit -m "First Commit" TEST.txt
 
 7)git push -u origin master
+
+8)git pull
