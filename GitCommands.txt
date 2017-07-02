@@ -1,18 +1,52 @@
-Command Prompt 
-1)git config --global user.name "karthiky7cs1212"  (karthiky7cs12...is the github username)
+Git COmmands
 
-2)git config --global user.email karthiky7cs1212@gmail.com  (karthiky7cs12...is the github email)
+1)go to directory--and Git init--Initilizes directory-- as git repository--Mark the directory- as master
 
-3)git clone https://github.com/karthiky7cs1212/CTCI.git
+2)git status---Current status of the folder
 
-4)git add TEST.txt
+3)git add . ---all the files in the current directory are added in staging area
 
-Updates:
+4)git commit---commit changes to git repository
 
-5)git status   (It will show modified if file is modified)
+5)git log --oneline--show brief log of commits
 
-6)git commit -m "First Commit" TEST.txt
+6)git checkout identifier filename---older file will be checkedout---
 
-7)git push -u origin master
+7)git reset HEAD filename-----Unstages changes after reset but leaves working directory unchanged
 
-8)git pull
+8)git checkout -- filename ---To discard changes in working directory
+
+9)git reset  --reset staging area to last commit-- but leaves working directory unchanged
+
+
+
+Online repository
+
+1)git remote add origin http:repositoryurl----add the remote online repository
+
+2)git push -u origin master  --push the local repository to online repository to the master branch
+
+3)git clone http:repositoryurl---online repository got into local
+
+
+Node Js
+
+1)node -v --check nodejs version
+2)npm -v  --check npm version
+(package.json --what packages your project depends on)
+3)Initilizing package.json--
+use npm init
+4)Install node module called --Liteserver--used to view the html contents in browser
+npm install lite-server --save-dev   ---save-dev option helps to save dependecies in package.json
+
+--node modules folder is created after this step
+
+5)add this in package.json
+ "start" :"npm run lite",
+ "lite":"lite-server"
+ 
+ 6)npm start--it will start the lite-server
+ and browser opens the html
+ 
+ 
+
